@@ -61,7 +61,13 @@ class _HomeState extends State<Home> {
       ),
       drawer: drawerMenu(),
       body: SafeArea(
-        child: Text('Hello'),
+        child: Column(
+          children: <Widget>[
+            Text('data'),
+            Text('data'),
+            Text('data'),
+          ],
+        ),
       ),
     );
   }
