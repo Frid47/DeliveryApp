@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 
 class InputForm {
+
+  // Comment
+
   Container appLogo() {
     return Container(
       height: 200,
